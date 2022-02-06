@@ -5431,7 +5431,9 @@ class google_business_reviews_rating
 				return $html;
 			}
 			
-			$html .= '			<span class="author-avatar">' . ((isset($data['author_url']) && $data['author_url'] != NULL && (is_bool($link_disable) && !$link_disable || is_array($link_disable) && !in_array('author', $link_disable))) ? '<a href="' . esc_attr($data['author_url']) . '" target="_blank"' . (($rel != NULL) ? ' rel="' . esc_attr($rel) . '"' : '') . '>' : '') . (($data['profile_photo_url'] != NULL) ? '<img src="' . esc_attr((is_string($avatar)) ? $avatar : $data['profile_photo_url']) . '" alt="Avatar">' : '—') . ((isset($data['author_url']) && $data['author_url'] != NULL && (is_bool($link_disable) && !$link_disable || is_array($link_disable) && !in_array('author', $link_disable))) ? '</a>' : '') . '</span>
+			$profile_photo_url = apply_filters( 'g_business_reviews_rating_profile_photo_url', $data['profile_photo_url'] );
+
+			$html .= '			<span class="author-avatar">' . ((isset($data['author_url']) && $data['author_url'] != NULL && (is_bool($link_disable) && !$link_disable || is_array($link_disable) && !in_array('author', $link_disable))) ? '<a href="' . esc_attr($data['author_url']) . '" target="_blank"' . (($rel != NULL) ? ' rel="' . esc_attr($rel) . '"' : '') . '>' : '') . (($profile_photo_url != NULL) ? '<img src="' . esc_attr((is_string($avatar)) ? $avatar : $profile_photo_url) . '" alt="Avatar">' : '—') . ((isset($data['author_url']) && $data['author_url'] != NULL && (is_bool($link_disable) && !$link_disable || is_array($link_disable) && !in_array('author', $link_disable))) ? '</a>' : '') . '</span>
 ';
 			return $html;
 		case 'name':
