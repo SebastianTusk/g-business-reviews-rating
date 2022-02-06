@@ -4472,8 +4472,10 @@ class google_business_reviews_rating
 ';
 			foreach ($this->reviews_filtered as $id => $a)
 			{
+				$profile_photo_url = apply_filters( 'g_business_reviews_rating_profile_photo_url', $a['profile_photo_url'] );
+
 				$html .= '		<li class="review review-item ' . esc_attr((($i % 2) ? 'odd' : 'even') . ' rating-' . $a['rating']) . (($a['text'] == NULL) ? ' no-text' : ''). '" data-id="' . esc_attr($id). '">
-			<span class="avatar' . ((isset($a['author_url']) && isset($a['profile_photo_url']) && $a['author_url'] != NULL && $a['profile_photo_url'] != NULL) ? ' original' : ' empty') . '"><img src="' . esc_attr($a['profile_photo_url']) . '" alt="Avatar"></span>
+			<span class="avatar' . ((isset($a['author_url']) && isset($profile_photo_url) && $a['author_url'] != NULL && $profile_photo_url != NULL) ? ' original' : ' empty') . '"><img src="' . esc_attr($profile_photo_url) . '" alt="Avatar"></span>
 			<span class="review-meta">
 				<span class="name">' . esc_html($a['author_name']) . '</span>
 				<span class="rating">' . str_repeat('★', $a['rating']) . (($a['rating'] < 5) ? '<span class="not">' . str_repeat('☆', (5 - $a['rating'])) . '</span>' : '') . '</span>
@@ -4535,12 +4537,14 @@ class google_business_reviews_rating
 ';		
 			foreach ($this->reviews as $key => $a)
 			{
+				$profile_photo_url = apply_filters( 'g_business_reviews_rating_profile_photo_url', $a['profile_photo_url'] );
+
 				$html .= '        <tr id="' . esc_attr(preg_replace('/[^0-9a-z-]/', '-', $key)) . '" class="review ' . esc_attr('rating-' . $a['rating']) . esc_attr(((!$a['status']) ? ' inactive' : '')) . ((array_key_exists('time_estimate', $a) && $a['time_estimate']) ? ' estimate' : '') . ((array_key_exists('removable', $a) && $a['removable']) ? ' removable' : '') . '" data-id="' . esc_attr($a['id']) . '" data-order="' . esc_attr($a['order']) . '">
             <td class="id number">' . esc_html($a['id']) . ' <a href="' . esc_attr('#' . preg_replace('/[^0-9a-z-]/', '-', $key)) . '" class="show-hide" title="' . (($a['status']) ? esc_attr__('Hide', 'g-business-reviews-rating') : esc_attr__('Show', 'g-business-reviews-rating')) . '">' . (($a['status']) ? '<span class="dashicons dashicons-visibility"></span>' : '<span class="dashicons dashicons-hidden"></span>') . '</a>' . ((array_key_exists('removable', $a) && $a['removable'] || array_key_exists('time_estimate', $a) && $a['time_estimate']) ? '<a href="' . esc_attr('#' . preg_replace('/[^0-9a-z-]/', '-', $key)) . '" class="remove" title="' . esc_attr__('Remove', 'g-business-reviews-rating') . '"><span class="dashicons dashicons-no"></span></a>' : '') . '</td>
             <td class="submitted date"><span class="date' . ((array_key_exists('time_estimate', $a) && $a['time_estimate']) ? ' date-edit' : '') . '"><span class="value">' . ((array_key_exists('time_estimate', $a) && $a['time_estimate']) ? esc_html(date("Y/m/d", $a['time'])) . '</span> <span class="dashicons dashicons-arrow-down"></span>' : esc_html(date("Y/m/d H:i", $a['time']))) . '</span></span>' . ((array_key_exists('time_estimate', $a) && $a['time_estimate']) ? '<input type="date" id="' . esc_attr('submitted-' . preg_replace('/[^0-9a-z-]/', '-', $key)) . '" class="time-estimate" name="submitted[]" value="' . esc_attr(date("Y-m-d", $a['time'])) . '" max="' . esc_attr(date("Y-m-d")) . '">' : '') . '</td>
             <td class="author">
 				<span class="name">' . ((isset($a['author_url']) && $a['author_url'] != NULL) ? '<a href="' . esc_attr($a['author_url']) . '" target="_blank">' : '') . esc_html($a['author_name']) . ((isset($a['author_url']) && $a['author_url'] != NULL) ? '</a>' : '') . '</span>
-				' . ((isset($a['author_url']) && isset($a['profile_photo_url']) && $a['author_url'] != NULL && $a['profile_photo_url'] != NULL) ? '<span class="avatar"><a href="' . esc_attr($a['author_url']) . '" target="_blank"><img src="' . esc_attr($a['profile_photo_url']) . '" alt="Avatar"></a></span>' : '') . '
+				' . ((isset($a['author_url']) && isset($profile_photo_url) && $a['author_url'] != NULL && $profile_photo_url != NULL) ? '<span class="avatar"><a href="' . esc_attr($a['author_url']) . '" target="_blank"><img src="' . esc_attr($profile_photo_url) . '" alt="Avatar"></a></span>' : '') . '
 			</td>
             <td class="rating">' . str_repeat('★', $a['rating']) . (($a['rating'] < 5) ? '<span class="not">' . str_repeat('☆', (5 - $a['rating'])) . '</span>' : '') . ' <span class="rating-number">(' . esc_html($a['rating']) . ')</span></td>
             <td class="text"><div class="text-wrap">' . (($a['text'] != NULL) ? preg_replace('/(\r\n|\r|\n)+/', '<br>' . PHP_EOL . '            	', esc_html(strip_tags($a['text']))) : '<span class="none" title="' . esc_attr(__('None', 'g-business-reviews-rating')) . '">—</span>') . '</div></td>
