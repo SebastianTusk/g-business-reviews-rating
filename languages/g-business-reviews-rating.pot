@@ -1,0 +1,3000 @@
+# Copyright (C) 2022 Noah Hearle, Design Extreme
+# This file is distributed under the same license as the Reviews and Rating - Google My Business plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Reviews and Rating - Google My Business 4.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/g-business-reviews-rating\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-01-25T16:52:42+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.2.0\n"
+"X-Domain: g-business-reviews-rating\n"
+
+#. Plugin Name of the plugin
+#: templates/settings.php:10
+#: index.php:725
+#: index.php:5672
+msgid "Reviews and Rating - Google My Business"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/g-business-reviews-rating/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Shortcode and widget for Google reviews, current rating and direct links to allow customers to leave their own rating and review – data sourced from Google My Business"
+msgstr ""
+
+#. Author of the plugin
+msgid "Noah Hearle, Design Extreme"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://designextreme.com/wordpress/"
+msgstr ""
+
+#: templates/settings.php:10
+#: templates/settings.php:488
+#: templates/widget.php:110
+msgid "Demo Mode"
+msgstr ""
+
+#: templates/settings.php:14
+msgid "Setup"
+msgstr ""
+
+#: templates/settings.php:16
+#: templates/settings.php:500
+msgid "Shortcodes"
+msgstr ""
+
+#: templates/settings.php:19
+#: templates/settings.php:505
+#: templates/settings.php:620
+#: templates/settings.php:1074
+#: templates/settings.php:1290
+#: index.php:4495
+msgid "Reviews"
+msgstr ""
+
+#: templates/settings.php:22
+#: templates/settings.php:1301
+msgid "Retrieved Data"
+msgstr ""
+
+#: templates/settings.php:24
+#: templates/settings.php:1316
+msgid "Advanced"
+msgstr ""
+
+#: templates/settings.php:25
+#: templates/settings.php:1415
+#: index.php:4497
+msgid "About"
+msgstr ""
+
+#: templates/settings.php:30
+msgid "A Google API Key and a Place ID are required"
+msgstr ""
+
+#: templates/settings.php:30
+msgid "A Google API Key is required"
+msgstr ""
+
+#: templates/settings.php:30
+msgid "A Place ID is required"
+msgstr ""
+
+#: templates/settings.php:30
+msgid "The Google API Key and Place ID have different values"
+msgstr ""
+
+#: templates/settings.php:30
+msgid "An unknown error has a occurred, please reload this page."
+msgstr ""
+
+#: templates/settings.php:31
+#: templates/settings.php:391
+msgid "Google Credentials"
+msgstr ""
+
+#: templates/settings.php:35
+#: templates/settings.php:394
+msgid "Google API Key"
+msgstr ""
+
+#. translators: 1: URL of Place ID Finder, 2: IP of the web server, 3: Help icon and reveal toggle link
+#: templates/settings.php:41
+#: templates/settings.php:400
+msgid "In order to retrieve Google My Business data, you’ll need your own <a href=\"%1$s\" class=\"components-external-link\" target=\"_blank\">API Key</a>, with API: <span class=\"highlight\">Places API</span> and restrict to IP: <span class=\"highlight\">%2$s</span> %3$s"
+msgstr ""
+
+#. translators: 1: a HTML ID, 2: URL of Google Developer Console, 3: URL of Place API, 4: URL of Google Developer Console, 5: IP of web server, 6: URL for Google billing account
+#: templates/settings.php:43
+#: templates/settings.php:402
+msgid ""
+"<ol id=\"%1$s\">\n"
+"\t\t\t\t\t\t\t<li>Create a new project or open an existing project in <a href=\"%2$s\" class=\"components-external-link\" target=\"_blank\">Google Developer’s Console</a>;</li>\n"
+"\t\t\t\t\t\t\t<li>Check the API: <a href=\"%3$s\" class=\"components-external-link\" target=\"_blank\">Places API</a> is enabled in your account;</li>\n"
+"\t\t\t\t\t\t\t<li>In the Console, go to: <a href=\"%4$s\" class=\"components-external-link\" target=\"_blank\">Credentials</a>;</li>\n"
+"\t\t\t\t\t\t\t<li>Click “+ Create Credentials”;</li>\n"
+"\t\t\t\t\t\t\t<li>Select “API Key”;</li>\n"
+"\t\t\t\t\t\t\t<li>Click “Restrict Key”;</li>\n"
+"\t\t\t\t\t\t\t<li>Set “Application restrictions” to “IP addresses” and enter: <span class=\"highlight\">%5$s</span> ;</li>\n"
+"\t\t\t\t\t\t\t<li>Under the heading: “API restrictions”, select “Restrict Key” and select: “Places API”;</li>\n"
+"\t\t\t\t\t\t\t<li>Click “Save”;</li>\n"
+"\t\t\t\t\t\t\t<li>Finally for regular requests, please <a href=\"%6$s\" class=\"components-external-link\" target=\"_blank\">enable billing</a> for your project to receive your <em>substantial and free</em> API request allocation.</li>\n"
+"\t\t\t\t\t\t</ol>"
+msgstr ""
+
+#: templates/settings.php:58
+#: templates/settings.php:417
+msgid "Google Place ID"
+msgstr ""
+
+#. translators: %s: the Google Place Finder URL
+#: templates/settings.php:68
+msgid "You can find your unique Place ID by searching by your business&rsquo; name in <a href=\"%s\" class=\"components-external-link\" target=\"_blank\">Google&rsquo;s Place ID Finder</a>. Single business locations are accepted; coverage areas are not."
+msgstr ""
+
+#. translators: %s: the Google Place Finder URL
+#: templates/settings.php:71
+msgid "Find your business&rsquo; name in <a href=\"%s\" class=\"components-external-link\" target=\"_blank\">Google&rsquo;s Place ID Finder</a>; single business locations are accepted; coverage areas are not accepted."
+msgstr ""
+
+#: templates/settings.php:76
+#: templates/settings.php:451
+msgid "Retrieval Language"
+msgstr ""
+
+#: templates/settings.php:79
+#: templates/settings.php:454
+msgid "No Preference"
+msgstr ""
+
+#: templates/settings.php:92
+#: templates/settings.php:467
+msgid "Update Frequency"
+msgstr ""
+
+#. translators: %s: is the translation of “Synchronize Daily”
+#: templates/settings.php:101
+msgid "%s (Recommended)"
+msgstr ""
+
+#: templates/settings.php:115
+msgid "Skip and enable Demo mode"
+msgstr ""
+
+#: templates/settings.php:128
+#: widget.php:36
+msgid "Reviews and Rating"
+msgstr ""
+
+#: templates/settings.php:129
+msgid "The general settings for your reviews and rating elements. Shortcode parameters will take precedence."
+msgstr ""
+
+#: templates/settings.php:132
+msgid "Theme"
+msgstr ""
+
+#: templates/settings.php:135
+#: templates/settings.php:619
+#: templates/widget.php:19
+msgid "Default"
+msgstr ""
+
+#: templates/settings.php:145
+msgid "Recommended for narrow spaces such as a sidebar."
+msgstr ""
+
+#: templates/settings.php:146
+msgid "We recommend hiding all reviews with this theme."
+msgstr ""
+
+#: templates/settings.php:147
+msgid "We recommend matching the limit to multiples of columns."
+msgstr ""
+
+#. translators: %s: refers to a shortcode parameter
+#: templates/settings.php:149
+msgid "We recommend using the shortcode parameter: <em>%s</em> for further customizations."
+msgstr ""
+
+#: templates/settings.php:153
+msgid "Review Limit"
+msgstr ""
+
+#: templates/settings.php:157
+msgid "Hide Reviews"
+msgstr ""
+
+#: templates/settings.php:158
+msgid "Show Limited Reviews"
+msgstr ""
+
+#: templates/settings.php:159
+msgid "Show All Reviews"
+msgstr ""
+
+#. translators: %u: refers number of reviews and must remain intact
+#: templates/settings.php:162
+msgid "You currently have %u active review retrieved from Google Places."
+msgid_plural "You currently have %u active reviews retrieved from Google Places (and imported)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/settings.php:166
+msgid "Carousel View"
+msgstr ""
+
+#: templates/settings.php:171
+msgid "If set, will enable the carousel with a slide matching the number of reviews set in the view."
+msgstr ""
+
+#: templates/settings.php:175
+msgid "Review Sort"
+msgstr ""
+
+#: templates/settings.php:190
+msgid "Rating Range"
+msgstr ""
+
+#: templates/settings.php:216
+msgid "Review Text Length Range"
+msgstr ""
+
+#: templates/settings.php:223
+msgid "Review Excerpt Length"
+msgstr ""
+
+#. translators: %s: refers to a HTML ID, leave unchanged
+#: templates/settings.php:229
+msgid "The characters displayed before a <a href=\"%s\" class=\"void\">… More</a> toggle is shown to reveal the full review text. Leave empty for no excerpt."
+msgstr ""
+
+#: templates/settings.php:233
+msgid "Color Scheme"
+msgstr ""
+
+#: templates/settings.php:235
+#: templates/settings.php:1377
+#: templates/settings.php:1383
+#: index.php:4546
+#: index.php:4547
+#: index.php:4548
+msgid "None"
+msgstr ""
+
+#: templates/settings.php:242
+#: index.php:5003
+msgid "Icon"
+msgstr ""
+
+#: templates/settings.php:246
+#: templates/settings.php:382
+msgid "Choose Image"
+msgstr ""
+
+#: templates/settings.php:246
+#: templates/settings.php:382
+msgid "Replace"
+msgstr ""
+
+#: templates/settings.php:253
+msgid "Shortcode"
+msgstr ""
+
+#. translators: %s: refers to the shortcode section bookmark
+#: templates/settings.php:257
+msgid "View all <a href=\"%s\">shortcodes and parameters</a> for further customization."
+msgstr ""
+
+#: templates/settings.php:261
+#: templates/settings.php:291
+msgid "Preview"
+msgstr ""
+
+#: templates/settings.php:282
+#: templates/settings.php:287
+msgid "Structured Data"
+msgstr ""
+
+#. translators: %s: refers to Schema URL and name, leave unchanged
+#: templates/settings.php:284
+msgid "Allow search engines to easily read review data for your website using Structured Data %s which includes general business information and recent, relevant and visible reviews."
+msgstr ""
+
+#: templates/settings.php:290
+msgid "Enable and insert Structured Data on the front page."
+msgstr ""
+
+#: templates/settings.php:296
+msgid "Telephone"
+msgstr ""
+
+#: templates/settings.php:302
+msgid "Business Type"
+msgstr ""
+
+#: templates/settings.php:305
+msgid "Local Business"
+msgstr ""
+
+#: templates/settings.php:306
+msgid "Not Applicable/Other"
+msgstr ""
+
+#: templates/settings.php:316
+msgid "Airline"
+msgstr ""
+
+#: templates/settings.php:317
+#: templates/settings.php:320
+#: templates/settings.php:323
+#: templates/settings.php:326
+#: templates/settings.php:329
+#: templates/settings.php:332
+#: templates/settings.php:335
+#: templates/settings.php:338
+#: templates/settings.php:341
+#: templates/settings.php:344
+#: templates/settings.php:347
+#: templates/settings.php:350
+#: templates/settings.php:353
+#: templates/settings.php:356
+msgid "Structured Data Not Available"
+msgstr ""
+
+#: templates/settings.php:319
+msgid "Consortium"
+msgstr ""
+
+#: templates/settings.php:322
+msgid "Corporation"
+msgstr ""
+
+#: templates/settings.php:325
+msgid "Educational Organization"
+msgstr ""
+
+#: templates/settings.php:328
+msgid "Funding Scheme"
+msgstr ""
+
+#: templates/settings.php:331
+msgid "Government Organization"
+msgstr ""
+
+#: templates/settings.php:334
+msgid "Library System"
+msgstr ""
+
+#: templates/settings.php:337
+msgid "Medical Organization"
+msgstr ""
+
+#: templates/settings.php:340
+msgid "NGO"
+msgstr ""
+
+#: templates/settings.php:343
+msgid "News Media Organization"
+msgstr ""
+
+#: templates/settings.php:346
+msgid "Performing Group"
+msgstr ""
+
+#: templates/settings.php:349
+msgid "Project"
+msgstr ""
+
+#: templates/settings.php:352
+msgid "Sports Organization"
+msgstr ""
+
+#: templates/settings.php:355
+msgid "Workers Union"
+msgstr ""
+
+#: templates/settings.php:362
+msgid "Price Range"
+msgstr ""
+
+#: templates/settings.php:365
+msgid "Not Applicable"
+msgstr ""
+
+#: templates/settings.php:378
+msgid "Logo"
+msgstr ""
+
+#: templates/settings.php:424
+msgid "New Place"
+msgstr ""
+
+#: templates/settings.php:425
+msgid "Select Place"
+msgstr ""
+
+#: templates/settings.php:434
+msgid "Unknown Place"
+msgstr ""
+
+#. translators: %s: the Google Place Finder URL
+#: templates/settings.php:443
+msgid "You can find your unique Place ID by searching by your business&rsquo; name in <a href=\"%s\" class=\"components-external-link\" target=\"_blank\">Google&rsquo;s Place ID Finder</a>. Single business locations are accepted; coverage areas are not accepted."
+msgstr ""
+
+#. translators: 1: the Google Place Finder URL, 2: the URL of the business in Google Maps
+#: templates/settings.php:446
+msgid "Find your business&rsquo; name in <a href=\"%1$s\" class=\"components-external-link\" target=\"_blank\">Google&rsquo;s Place ID Finder</a>; single business locations are accepted; coverage areas are not. You may edit the business&rsquo; name in <a href=\"%2$s\" class=\"components-external-link\" target=\"_blank\">Google Maps</a>."
+msgstr ""
+
+#: templates/settings.php:482
+msgid "Clean Retrieved Data"
+msgstr ""
+
+#: templates/settings.php:484
+msgid "Additional sanitization of retrieved data — emoticons are removed from text"
+msgstr ""
+
+#: templates/settings.php:490
+msgid "Enable Demo Mode with dummy data"
+msgstr ""
+
+#. translators: %s: URL for Shortcode Demonstration Website
+#: templates/settings.php:502
+msgid "Here is a selection of Shortcodes. You can find more Shortcode examples with their output in the <a href=\"%s\" class=\"components-external-link\" target=\"_blank\">demonstration website</a>."
+msgstr ""
+
+#: templates/settings.php:508
+msgid "Google reviews"
+msgstr ""
+
+#: templates/settings.php:512
+msgid "Google reviews (IDs)"
+msgstr ""
+
+#: templates/settings.php:516
+msgid "Google reviews (options)"
+msgstr ""
+
+#: templates/settings.php:561
+#: templates/settings.php:621
+#: templates/settings.php:1075
+msgid "Links"
+msgstr ""
+
+#: templates/settings.php:564
+msgid "Google reviews link"
+msgstr ""
+
+#: templates/settings.php:565
+#: templates/settings.php:569
+#: templates/settings.php:572
+#: templates/settings.php:575
+msgid "Our Reviews on Google"
+msgstr ""
+
+#: templates/settings.php:568
+msgid "Google reviews link (options)"
+msgstr ""
+
+#: templates/settings.php:578
+msgid "Write a Google review link"
+msgstr ""
+
+#: templates/settings.php:579
+msgid "Leave Your Review on Google"
+msgstr ""
+
+#: templates/settings.php:582
+msgid "Google Maps link"
+msgstr ""
+
+#: templates/settings.php:583
+msgid "View Location on Google Maps"
+msgstr ""
+
+#: templates/settings.php:586
+#: index.php:4522
+msgid "Text"
+msgstr ""
+
+#: templates/settings.php:589
+msgid "Google rating"
+msgstr ""
+
+#: templates/settings.php:593
+msgid "Google review count"
+msgstr ""
+
+#: templates/settings.php:597
+msgid "Google reviews URL"
+msgstr ""
+
+#: templates/settings.php:601
+msgid "Write a Google review URL"
+msgstr ""
+
+#: templates/settings.php:605
+msgid "Google Maps URL"
+msgstr ""
+
+#: templates/settings.php:612
+msgid "Parameters"
+msgstr ""
+
+#: templates/settings.php:613
+msgid "There are quite a wide range of parameters that are accepted, so a guide will help cover all the possibilities to customize the output of your reviews, links and text. Shortcode parameters will override the values in the Setup. All parameters are optional."
+msgstr ""
+
+#: templates/settings.php:616
+msgid "Parameter"
+msgstr ""
+
+#: templates/settings.php:617
+#: templates/settings.php:1073
+msgid "Description"
+msgstr ""
+
+#: templates/settings.php:618
+msgid "Accepted Values"
+msgstr ""
+
+#. translators: 1: NULL as a parameter value, 2: Numerical zero as a parameter value
+#: templates/settings.php:626
+msgid "Simply sets the number of reviews you would like listed. Do not set or leave this empty (<span class=\"code\">%1$s</span>) = all reviews and <span class=\"code\">%2$s</span> = hide reviews."
+msgstr ""
+
+#. translators: %s: parameter value for NULL
+#: templates/settings.php:635
+msgid "Your preference for sorting when 2 or more reviews are displayed. Leave empty (<span class=\"code\">%s</span>) to sort by Google&rsquo;s relevance."
+msgstr ""
+
+#: templates/settings.php:643
+msgid "When the limit is 1 or more, you can offset the review results to &ldquo;jump&rdquo; forward."
+msgstr ""
+
+#. translators: %s: bookmark for limit parameter
+#: templates/settings.php:652
+msgid "Enable the carousel for reviews. Active when reviews exist, the view is 1 or more and the view lower than the <a href=\"%s\">limit</a>."
+msgstr ""
+
+#. translators: %s: bookmark for reviews
+#: templates/settings.php:661
+msgid "Show a review or reviews by ID (see <a href=\"%s\">Reviews</a>); listing order is preserved; use a comma separated list for two or more IDs."
+msgstr ""
+
+#: templates/settings.php:669
+msgid "If you have more than one Place in the retrieved reviews, you can filter by the Place ID. Only the active Place will receive new reviews and data."
+msgstr ""
+
+#: templates/settings.php:677
+msgid "Filter results based on the language using the two letter language code. Empty reviews have no language will always appear."
+msgstr ""
+
+#: templates/settings.php:683
+#: index.php:4539
+msgid "Show"
+msgstr ""
+
+#. translators: %s: bookmark for HTML classes
+#: templates/settings.php:686
+msgid "Set a theme based on your overall visual requirements. You may use their combination of <a href=\"%s\">class names</a> (recommended) or the full text name (not recommended). These values match with the class attribute set to the main HTML element."
+msgstr ""
+
+#: templates/settings.php:694
+msgid "Set a color scheme based on your overall visual requirements. These values match with the class attribute set to the main HTML element."
+msgstr ""
+
+#: templates/settings.php:702
+msgid "Set to filter out any ratings that fall below this minimum value."
+msgstr ""
+
+#: templates/settings.php:710
+msgid "Set to filter out any ratings that lie above this maximum value."
+msgstr ""
+
+#. translators: %s: is a list of parameters and should remain unchanged
+#: templates/settings.php:719
+msgid "Show or hide the summary section &mdash; containing the icon, business name, vicinity and rating. You may also list individual elements that match the parameters: %s; as a list separated by commas."
+msgstr ""
+
+#: templates/settings.php:727
+msgid "Show or hide business icon &mdash; or specify your own image replacement (jpg, jpeg, png, gif, svg extensions are supported)."
+msgstr ""
+
+#: templates/settings.php:735
+msgid "Show or hide business name &mdash; or specify your own choice of business name."
+msgstr ""
+
+#: templates/settings.php:736
+#: templates/settings.php:744
+#: templates/settings.php:830
+#: templates/settings.php:838
+#: templates/settings.php:863
+#: templates/settings.php:897
+#: templates/settings.php:905
+#: templates/settings.php:966
+msgid "Any string"
+msgstr ""
+
+#: templates/settings.php:743
+msgid "Show or hide business vicinity according to Google &mdash; or specify your own text replacement."
+msgstr ""
+
+#: templates/settings.php:751
+msgid "Show or hide number of the overall rating."
+msgstr ""
+
+#. translators: 1: parameter value for CSS, 2: parameter value for specific colors
+#: templates/settings.php:760
+msgid "Show or hide stars for the overall rating, with an option to override default orange color for stars in the overall rating. Set as <em>%1$s</em> to mirror the style sheet rule <em>%2$s</em>."
+msgstr ""
+
+#: templates/settings.php:761
+#: templates/settings.php:770
+msgid "Any valid color string"
+msgstr ""
+
+#. translators: 1: parameter value for CSS, 2: parameter value for specific colors
+#: templates/settings.php:769
+msgid "Optionally override the default gray color for stars in the overall rating. Set as <em>%1$s</em> to mirror the style sheet rule <em>%2$s</em>."
+msgstr ""
+
+#: templates/settings.php:777
+msgid "Show or hide total review/rating count."
+msgstr ""
+
+#. translators: Please keep reference to &#37;u intact, example in alternative language preferred
+#: templates/settings.php:786
+msgid "Word displayed after the total review/rating count number in the summary. Accepts &#37;u to set placement of review/rating count (e.g. <em>Tenemos &#37;u comentarios</em>). For completeness, you may separate singular and plural with , or / characters."
+msgstr ""
+
+#: templates/settings.php:787
+#: templates/settings.php:872
+#: templates/settings.php:992
+#: templates/settings.php:1000
+#: templates/settings.php:1008
+#: templates/settings.php:1016
+#: templates/settings.php:1025
+msgid "Any valid string"
+msgstr ""
+
+#: templates/settings.php:788
+#: templates/settings.php:1291
+#: index.php:4784
+msgid "review"
+msgstr ""
+
+#: templates/settings.php:788
+#: templates/settings.php:1291
+#: index.php:4784
+msgid "reviews"
+msgstr ""
+
+#. translators: %s: parameter value for FALSE
+#: templates/settings.php:795
+msgid "Animate the rating stars on load or set as static (<span class=\"code\">%s</span>)."
+msgstr ""
+
+#: templates/settings.php:803
+msgid "Show or hide all review text leaving just the names, ratings and relative times."
+msgstr ""
+
+#. translators: 1: NULL as a parameter value, 2: Numerical zero as a parameter value
+#: templates/settings.php:812
+msgid "Filter by a minimum review text character count. Empty (<span class=\"code\">%1$s</span>) or <span class=\"code\">%2$s</span> = no minimum. "
+msgstr ""
+
+#. translators: 1: NULL as a parameter value, 2: Numerical zero as a parameter value
+#: templates/settings.php:821
+msgid "Filter by a maximum review text character count. Empty (<span class=\"code\">%1$s</span>) = no maximum. <span class=\"code\">%2$s</span> = no review text. "
+msgstr ""
+
+#: templates/settings.php:829
+msgid "Require a specific word or words in review text. Case insensitive; full word match. Multiple required words as a comma separated list."
+msgstr ""
+
+#: templates/settings.php:837
+msgid "Filter out reviews containing a specific word or words. Case insensitive; full word match. Multiple required words as a comma separated list."
+msgstr ""
+
+#: templates/settings.php:845
+msgid "Set a fixed height for all reviews text within the list of reviews. Longer reviews will have a vertical scroll. Units required."
+msgstr ""
+
+#: templates/settings.php:846
+msgid "Any valid CSS value"
+msgstr ""
+
+#. translators: %s: parameter value for NULL
+#: templates/settings.php:854
+msgid "Characters in review text to show before a &ldquo;more&rdquo; toggle link is shown to expand the remainder of the review. Empty (<span class=\"code\">%s</span>) = no excerpt; show all review text."
+msgstr ""
+
+#: templates/settings.php:862
+msgid "Text to use in the &ldquo;more&rdquo; toggle link."
+msgstr ""
+
+#: templates/settings.php:864
+#: index.php:4785
+#: widget.php:408
+msgid "More"
+msgstr ""
+
+#. translators: use local language version at php.net if available
+#: templates/settings.php:871
+msgid "Choose how to display the review dates, either using the <a href=\"https://www.php.net/manual/en/datetime.format.php\" class=\"components-external-link\" target=\"_blank\">PHP date</a>, relative text or to hide entirely. Actual review date may be an approximation if imported."
+msgstr ""
+
+#: templates/settings.php:879
+msgid "Set the entire element as a link to all reviews listed externally at Google (only if no reviews listed). Automatically added to Badge theme when no reviews are showing."
+msgstr ""
+
+#: templates/settings.php:880
+msgid "URL string"
+msgstr ""
+
+#. translators: 1: parameter value for switching author name in review listings, 2: parameter value for setting author details to appear inline in the review listings
+#: templates/settings.php:888
+msgid "Disable some or all types of external links: <em>%1$s</em>, <em>%2$s</em> or <em>%3$s</em>; comma separated list accepted."
+msgstr ""
+
+#: templates/settings.php:896
+msgid "Show a link/button for all reviews listed externally at Google. Specify custom text string to appear as the link text. This is hidden by default."
+msgstr ""
+
+#: templates/settings.php:904
+msgid "Show a link/button to allow a visitor to leave a review at Google. Specify custom text string to appear as the link text. This is hidden by default."
+msgstr ""
+
+#: templates/settings.php:912
+msgid "Show or hide users&rsquo; avatars &mdash; or specify your own [single] image replacement (jpg, jpeg, png, gif, svg extensions are supported)."
+msgstr ""
+
+#. translators: example path to image, include forward slashes
+#: templates/settings.php:913
+msgid "/url/to/image.jpg"
+msgstr ""
+
+#. translators: do not alter some words in the brackets — initials, last name initials — as these must remain in English. lowercase
+#: templates/settings.php:920
+msgid "Control the format of reviewers&rsquo; names such as (e.g. initials or last name initials). Options for case selection and formatting can be combined."
+msgstr ""
+
+#. translators: 1: parameter value for switching author name in review listings, 2: parameter value for setting author details to appear inline in the review listings, 3: list of available elements
+#: templates/settings.php:929
+msgid "Change the ordering of each review item — review text can be set to appear at the top of each entry. Add <em>%1$s</em> to switch the author&rsquo;s avatar and name with stars and date. Add <em>%2$s</em> to set the author name, stars and date inline. Individual elements can be sorted and included using a comma separated list (e.g. <em>%3$s</em>)."
+msgstr ""
+
+#. translators: 1: bookmark for view parameter, 2: parameter for view, 3: bookmark for interval parameter, 4: parameter for interval
+#: templates/settings.php:938
+msgid "Set the specific number of slides to play. Carousel must active with both parameters set: <a href=\"%1$s\">%2$s</a> and <a href=\"%3$s\">%4$s</a>."
+msgstr ""
+
+#. translators: 1: number/text used for infinite loop, 2: boolean value used for infinite loop, 3: bookmark for view parameter, 4: parameter for view, 5: bookmark for interval parameter, 6: parameter for interval
+#: templates/settings.php:947
+msgid "Specify the number of complete loops to automatically play through set of slides. Set to <span class=\"code\">%1$s</span> or <span class=\"code\">%2$s</span> for an infinite loop. Carousel must active with both parameters set: <a href=\"%3$s\">%4$s</a> and <a href=\"%5$s\">%6$s</a>."
+msgstr ""
+
+#. translators: 1: bookmark for view parameter, 2: parameter for carousel, 3: number/text used for infinite loop
+#: templates/settings.php:956
+msgid "Interval time in seconds for each slide. Ensure carousel is active with <a href=\"%1$s\">%2$s</a> and either <a href=\"%3$s\">%4$s</a> or <a href=\"%5$s\">%6$s</a> set."
+msgstr ""
+
+#. translators: 1: bookmark for view parameter, 2: parameter for carousel, 3: number/text used for infinite loop
+#: templates/settings.php:965
+msgid "Specify a bullet design or character for a carousel&rsquo;s navigation. Disable navigation with <span class=\"code\">%1$s</span>. Ensure carousel is active with <a href=\"%2$s\">%3$s</a>."
+msgstr ""
+
+#. translators: for the moment, leave powered by Google unchanged — title attribute exists for other languages
+#: templates/settings.php:973
+msgid "Show or hide the &ldquo;powered by Google&rdquo; attribution."
+msgstr ""
+
+#. translators: 1: heading HTML tag, 2: another heading HTML tag
+#: templates/settings.php:982
+msgid "Set your own HTML tags for elements such as replacing <span class=\"code\">%1$s</span> with <span class=\"code\">%2$s</span>. Any sequence length accepted; separated by commas for: heading, vicinity, rating, list, list item, buttons, attribution and errors."
+msgstr ""
+
+#. translators: %s: refers the ID of the next section and should remain unchanged
+#: templates/settings.php:991
+msgid "Set the class attribute for main HTML element or the single anchor link. Refer to the <a href=\"%s\">HTML Classes</a> for a comprehensive list of pre-defined styles and triggers. Separated by spaces; not commas."
+msgstr ""
+
+#: templates/settings.php:999
+msgid "Specifically set the class attribute for a link or links. Separated by spaces; not commas."
+msgstr ""
+
+#: templates/settings.php:1007
+msgid "Set the class attribute for the Google reviews link only. Separated by spaces; not commas."
+msgstr ""
+
+#: templates/settings.php:1015
+msgid "Set the class attribute for the Write a Google review link only. Separated by spaces; not commas."
+msgstr ""
+
+#. translators: 1: the target attribute 2: parameter value for NULL
+#: templates/settings.php:1024
+msgid "Set the anchor link&rsquo;s <a href=\"https://www.w3schools.com/tags/att_a_target.asp\" class=\"components-external-link\" target=\"_blank\">%1$s</a>. Empty (<span class=\"code\">%2$s</span>) to remove attribute."
+msgstr ""
+
+#. translators: 1: the rel attribute 2: parameter value for NULL
+#: templates/settings.php:1033
+msgid "Set the anchor link&rsquo;s <a href=\"https://www.w3schools.com/tags/att_a_rel.asp\" class=\"components-external-link\" target=\"_blank\"><abbr title=\"relationship\">%1$s</abbr> attribute</a>. Empty (<span class=\"code\">%2$s</span>) to remove attribute."
+msgstr ""
+
+#: templates/settings.php:1041
+msgid "Choose to not load the style sheet that makes your rating and reviews look good. <em>Not recommended as a parameter.</em>"
+msgstr ""
+
+#. translators: 1: parameter value for HTML entities used in overall rating star, 2: bookmark link, 3: parameter value to trigger script for previous version of plugin
+#: templates/settings.php:1050
+msgid "If the stars aren&rsquo;t aligning in the overall rating, you can modify this value to adjust the width. Only applicable when used with stars parameter: <em>%1$s</em> or <a href=\"%2$s\">class parameter</a>: <em>%3$s</em>."
+msgstr ""
+
+#: templates/settings.php:1051
+msgid "Positive float number:"
+msgstr ""
+
+#. translators: 1: WP_DEBUG definition name, 2: WordPress configuration file name
+#: templates/settings.php:1059
+msgid "You can choose to hide error notices caused by lack of reviews, filtering that leads to no reviews or lack of source data. Defaults to <span class=\"code\">%1$s</span> if defined in <em>%2$s</em>."
+msgstr ""
+
+#: templates/settings.php:1067
+msgid "HTML Classes"
+msgstr ""
+
+#. translators: 1: bookmark for parameter theme, 2: name of theme parameter, 3: bookmark for parameter class, 4: name of class parameter
+#: templates/settings.php:1069
+msgid "Stylistically, you may wish to make changes that are beyond the list of themes. Here is a list of HTML classes that can be used by <a href=\"%1$s\">%2$s</a> or <a href=\"%3$s\">%4$s</a> parameter to set your design and functionality preferences."
+msgstr ""
+
+#: templates/settings.php:1072
+msgid "Class"
+msgstr ""
+
+#: templates/settings.php:1079
+msgid "This is the default theme and implied, so it doesn&rsquo;t need to be specified."
+msgstr ""
+
+#: templates/settings.php:1085
+msgid "For pages or sections with dark backgrounds &mdash; some text and icons have their colors inverted compared to the default, light background."
+msgstr ""
+
+#: templates/settings.php:1091
+msgid "Uses fonts, styling and sizing found in the Google review listings."
+msgstr ""
+
+#: templates/settings.php:1097
+msgid "A more compact version to summarize your business&rsquo; listing on Google, better without reviews."
+msgstr ""
+
+#: templates/settings.php:1103
+msgid "Even smaller styling of fonts with some elements hidden by default. Works well with badge to summarize your business&rsquo; listing on Google. Recommend setting your own max-width value in your style sheet."
+msgstr ""
+
+#: templates/settings.php:1109
+msgid "If the shortcode is placed in a narrow container and text or elements are jumping to a new lines, try applying this class to handle the narrow space in a neater fashion."
+msgstr ""
+
+#: templates/settings.php:1115
+msgid "Centrally align all text and elements. Can be applied to any theme but some may already share its styling."
+msgstr ""
+
+#. translators: Please keep the number names in English untranslated
+#: templates/settings.php:1122
+msgid "Organize reviews with multiple columns. Works with classes: two, three, four, five or six added."
+msgstr ""
+
+#: templates/settings.php:1128
+msgid "Set to two columns, must be used with columns class."
+msgstr ""
+
+#: templates/settings.php:1134
+msgid "Set to three columns, must be used with columns class."
+msgstr ""
+
+#: templates/settings.php:1140
+msgid "Set to four columns, must be used with columns class."
+msgstr ""
+
+#: templates/settings.php:1146
+msgid "Set to five columns, must be used with columns class."
+msgstr ""
+
+#: templates/settings.php:1152
+msgid "Set to six columns, must be used with columns class."
+msgstr ""
+
+#: templates/settings.php:1158
+msgid "Review text can be justified — works better with narrow spaces or columns."
+msgstr ""
+
+#: templates/settings.php:1164
+msgid "Useful for badge and tiny themes — fill the background with a solid color that works with light or dark. Recommend using your own styling to set a specific color."
+msgstr ""
+
+#: templates/settings.php:1170
+msgid "Works well with fill — add some padding between the main element and its children."
+msgstr ""
+
+#: templates/settings.php:1176
+msgid "Review text has a bubble appearance."
+msgstr ""
+
+#: templates/settings.php:1182
+msgid "Add the tile effect to all reviews in the list"
+msgstr ""
+
+#: templates/settings.php:1188
+msgid "Add the outline effect, the same as the badge theme, to other themes."
+msgstr ""
+
+#: templates/settings.php:1194
+msgid "Useful for badge — remove the outline effect (box-shadow). Helpful if you want to use a parent element&rsquo;s styling."
+msgstr ""
+
+#: templates/settings.php:1200
+msgid "Alternatively stripe the main sections with alternating backgrounds."
+msgstr ""
+
+#: templates/settings.php:1206
+msgid "Used with stripe to offer a more contrasting version of the alternating backgrounds with dark/light text."
+msgstr ""
+
+#: templates/settings.php:1212
+msgid "Space out the rating and submission dates in each review item."
+msgstr ""
+
+#: templates/settings.php:1218
+msgid "Override the default Google icon with a monochrome white version. Used for tiny badges and links."
+msgstr ""
+
+#: templates/settings.php:1224
+msgid "Override the default Google icon with a monochrome black version. Used for tiny badges and links."
+msgstr ""
+
+#. translators: 1: bookmark for parameter stars, 2: parameter name for stars, 3: bookmark for parameter stars_gray, 4: parameter name for stars_gray
+#: templates/settings.php:1231
+msgid "Use HTML entities rather than SVG vector images in the overall rating stars. Alternatively, use the parameter: <a href=\"%1$s\">%2$s</a> or <a href=\"%3$s\">%4$s</a>."
+msgstr ""
+
+#. translators: 1: bookmark for parameter stars, 2: parameter name for stars, 3: bookmark for parameter stars_gray, 4: parameter name for stars_gray
+#: templates/settings.php:1238
+msgid "Apply style sheet colors to SVG vector images in the overall rating stars. Alternatively, use the parameter: <a href=\"%1$s\">%2$s</a> or <a href=\"%3$s\">%4$s</a>."
+msgstr ""
+
+#: templates/settings.php:1244
+msgid "Set the star color to orange; used with plugin for versions: 1.x – 3.x."
+msgstr ""
+
+#: templates/settings.php:1250
+msgid "With a Carousel: set bullet to a square shape."
+msgstr ""
+
+#: templates/settings.php:1256
+msgid "With a Carousel: set bullet to a square shape with rounded edges."
+msgstr ""
+
+#: templates/settings.php:1262
+msgid "With a Carousel: set bullet to a diamond shape."
+msgstr ""
+
+#: templates/settings.php:1268
+msgid "This will trigger an overall link to the reviews on Google for the entire shortcode provided that no reviews are listed. This will already be applied in some instances."
+msgstr ""
+
+#: templates/settings.php:1274
+msgid "If the more text does not expand, there may be another script interfering with click events. Try using this for a more basic approach."
+msgstr ""
+
+#: templates/settings.php:1280
+msgid "Alternative to clearing all applied styles using JavaScript."
+msgstr ""
+
+#: templates/settings.php:1291
+msgid "Rating:"
+msgstr ""
+
+#: templates/settings.php:1294
+msgid "Please note: the total number of reviews listed at Google will not always match the number of reviews that are retrievable through its API."
+msgstr ""
+
+#: templates/settings.php:1305
+msgid "Most Recent Valid Retrieved Data"
+msgstr ""
+
+#. translators: 1: URL of reviews on Google, 2: URL of Place Finder
+#: templates/settings.php:1308
+msgid ""
+"This is the last successfully retrieved data from Google and will be used in the website. While your current reviews may still be visible on <a href=\"%1$s\" class=\"components-external-link\" target=\"_blank\">Google</a>, they are no longer being retrieved.\n"
+"\t\tPlease check and update your <a href=\"%2$s\" class=\"components-external-link\" target=\"_blank\">Place ID</a> if you wish to regain full functionality."
+msgstr ""
+
+#: templates/settings.php:1317
+#: templates/settings.php:1355
+msgid "Import"
+msgstr ""
+
+#. translators: 1: URL of reviews on Google, 2: URL of diagram image, 3: URL of diagram image, 4: URL of diagram image
+#: templates/settings.php:1321
+msgid ""
+"\n"
+"            <div class=\"entry-content advanced\">\n"
+"                <p>Okay, this bit is little advanced, if you can use the browser&rsquo;s inspector, you can load <em>all</em> the Google Reviews into your website with approximate dates.</p>\n"
+"                <ol id=\"html-import-instructions\">\n"
+"                  <li>Go to your <a href=\"%1$s\" class=\"components-external-link\" target=\"_blank\">Google Reviews</a>;</li>\n"
+"                  <li>Wait until it loads; expand all reviews by scrolling down;</li>\n"
+"                  <li><em>Inspect</em> the overall popup &mdash; on the outer white margin: <span class=\"right-click\">right click</span> | Inspect (Fig. 1, 2); </li>\n"
+"                  <li>In the HTML Inspector panel, <span class=\"right-click\">right click</span> on the &lt;div&gt; that highlights all the reviews and <em>Copy |</em> Outer HTML (Fig. 3); </li>\n"
+"                  <li>Paste this HTML into the <label for=\"html-import\">textarea below</label>:</li>\n"
+"                </ol>\n"
+"            </div>\n"
+"            <div class=\"entry-meta advanced\">\n"
+"                <ul id=\"html-import-figures\">\n"
+"                    <li id=\"html-import-figure-1\"><img src=\"%2$s\" alt=\"Fig. 1: Import Step 3, Part 1\"><span class=\"caption\"><strong>Fig 1:</strong> In the margin, <span class=\"right-click\">right click</span>.</span></li>\n"
+"                    <li id=\"html-import-figure-2\"><img src=\"%3$s\" alt=\"Fig. 2: Import Step 3, Part 2\"><span class=\"caption\"><strong>Fig 2:</strong> Select <em>Inspect</em>.</span></li>\n"
+"                    <li id=\"html-import-figure-3\"><img src=\"%4$s\" alt=\"Fig. 3: Import Step 4\"><span class=\"caption\"><strong>Fig 3:</strong> <span class=\"right-click\">Right click</span> on the highlighted &lt;div&gt; tag and click <em>Copy | Outer HTML</em>.</span></li>\n"
+"                </ul>\n"
+"            </div>"
+msgstr ""
+
+#: templates/settings.php:1345
+msgid "HTML from your Reviews on Google"
+msgstr ""
+
+#: templates/settings.php:1347
+msgid "Only import original"
+msgstr ""
+
+#: templates/settings.php:1348
+msgid "Only import translation"
+msgstr ""
+
+#: templates/settings.php:1349
+msgid "Import full review text"
+msgstr ""
+
+#: templates/settings.php:1351
+msgid "Show existing review entries"
+msgstr ""
+
+#: templates/settings.php:1354
+msgid "Process"
+msgstr ""
+
+#: templates/settings.php:1356
+msgid "Clear"
+msgstr ""
+
+#: templates/settings.php:1359
+msgid "This section is only available when the following criteria are met:"
+msgstr ""
+
+#: templates/settings.php:1361
+msgid "Demo mode is inactive;"
+msgstr ""
+
+#: templates/settings.php:1362
+msgid "API Key and Place ID are both set and valid;"
+msgstr ""
+
+#: templates/settings.php:1363
+msgid "Five or more reviews retrieved from Google."
+msgstr ""
+
+#: templates/settings.php:1367
+msgid "Styles and Scripts"
+msgstr ""
+
+#: templates/settings.php:1368
+msgid "Custom Style Sheet"
+msgstr ""
+
+#: templates/settings.php:1369
+msgid "If you prefer to manage your style sheet outside of your theme, you may add your own customized styles."
+msgstr ""
+
+#: templates/settings.php:1373
+msgid "Style Sheet"
+msgstr ""
+
+#: templates/settings.php:1375
+#: templates/settings.php:1381
+msgid "Legible"
+msgstr ""
+
+#: templates/settings.php:1376
+#: templates/settings.php:1382
+msgid "Compressed"
+msgstr ""
+
+#: templates/settings.php:1379
+msgid "JavaScript"
+msgstr ""
+
+#: templates/settings.php:1386
+msgid "Save"
+msgstr ""
+
+#: templates/settings.php:1391
+msgid "Cache"
+msgstr ""
+
+#: templates/settings.php:1392
+msgid "You may wish to clear the cache and retrieve fresh data from Google."
+msgstr ""
+
+#: templates/settings.php:1394
+msgid "Clear Cache"
+msgstr ""
+
+#: templates/settings.php:1399
+#: templates/settings.php:1408
+msgid "Reset"
+msgstr ""
+
+#: templates/settings.php:1400
+msgid "At times you may wish to start over, so you can clear all the plugin&rsquo;s settings here."
+msgstr ""
+
+#: templates/settings.php:1402
+msgid "Yes, I am sure."
+msgstr ""
+
+#: templates/settings.php:1404
+msgid "Clear the review archive only."
+msgstr ""
+
+#. translators: 1: plugin support URL, 2: author's name, 3: author's website, 4: author's business name
+#: templates/settings.php:1417
+msgid ""
+"\t\t\t<p>This review plugin came about as a side-effect of collecting a business’s opening times using the Places API from Google which sources data from a client’s Google My Business listing. The recent review data is available and, with some tweaks, it could be displayed anywhere in a similar style to the actual reviews popup in the Google search results.</p>\n"
+"\t\t\t<p>To keep the reviews current, the Places API is called at regular intervals with new relevant reviews added to the catalogue over time. The extensive Shortcode can be used in any post, page or try the Widget to place directly into the sidebar or footer. Any Shortcode parameters will overwrite the default settings in the first tab. I have kept the style sheet minimal to allow for your own customizations – as a web developer/designer this is what I’d like to see for all plugins.</p>\n"
+"\t\t\t<p>This is my first published plugin for WordPress so I’d appreciate any positive or negative <a href=\"%1$s\">feedback</a> or leave your thoughts in a <a href=\"%2$s\">review</a>. So if you have any comments, feature requests or wish to show me your own designs, please feel free to <a href=\"%3$s\">get in touch</a> with me.</p>\n"
+"\t\t\t<p><span class=\"signature\" title=\"%4$s\"></span><br>\n"
+"\t\t\t\tDeveloper, <a href=\"%5$s\">%6$s</a></p>"
+msgstr ""
+
+#: templates/settings.php:1423
+msgid "Plugins by the Developer"
+msgstr ""
+
+#: templates/settings.php:1428
+#: templates/settings.php:1434
+msgid "More Details"
+msgstr ""
+
+#: templates/settings.php:1429
+#: templates/settings.php:1436
+msgid "Installed"
+msgstr ""
+
+#: templates/settings.php:1443
+#: templates/settings.php:1445
+msgid "Follow Us"
+msgstr ""
+
+#: templates/settings.php:1444
+msgid "Want some easy-to-follow pro tips with examples? We will help you to make your reviews really stand out. Feature requests are welcome too."
+msgstr ""
+
+#: templates/settings.php:1448
+#: index.php:2224
+msgid "Support"
+msgstr ""
+
+#: templates/settings.php:1449
+msgid "Do you have any general support queries? Please search our forums at WordPress or make your own contribution. You can see that we are always very quick to reply!"
+msgstr ""
+
+#: templates/settings.php:1450
+msgid "View support forum"
+msgstr ""
+
+#: templates/settings.php:1453
+msgid "Ratings"
+msgstr ""
+
+#: templates/settings.php:1454
+msgid "Love this plugin with as much heart as we’ve put into its code? Why not share your feedback to help others with their plugin decision."
+msgstr ""
+
+#: templates/settings.php:1455
+msgid "Add my review"
+msgstr ""
+
+#: templates/settings.php:1458
+msgid "Donate"
+msgstr ""
+
+#: templates/settings.php:1459
+msgid "This plugin is actually powered by oat flat whites… We welcome any show of support the advancement of this plugin, no matter how small."
+msgstr ""
+
+#: templates/settings.php:1460
+msgid "Donate to this plugin"
+msgstr ""
+
+#: templates/widget.php:11
+msgid "Title:"
+msgstr ""
+
+#: templates/widget.php:17
+msgid "Theme:"
+msgstr ""
+
+#: templates/widget.php:30
+msgid "Review Limit:"
+msgstr ""
+
+#: templates/widget.php:35
+msgid "Carousel View:"
+msgstr ""
+
+#. translators: meaning for carousel loop, infinitely, without stopping
+#: templates/widget.php:40
+msgid "Loop ∞"
+msgstr ""
+
+#: templates/widget.php:43
+msgid "Seconds per slide"
+msgstr ""
+
+#: templates/widget.php:46
+msgid "Review Offset:"
+msgstr ""
+
+#: templates/widget.php:50
+msgid "Review Sort:"
+msgstr ""
+
+#: templates/widget.php:62
+msgid "Rating Range:"
+msgstr ""
+
+#: templates/widget.php:68
+msgid "Review Text Language:"
+msgstr ""
+
+#: templates/widget.php:70
+msgid "Any Language"
+msgstr ""
+
+#: templates/widget.php:81
+msgid "Review Text Length Range:"
+msgstr ""
+
+#: templates/widget.php:86
+msgid "Review Excerpt Length:"
+msgstr ""
+
+#: templates/widget.php:90
+msgid "More Text:"
+msgstr ""
+
+#: templates/widget.php:94
+msgid "Display business name"
+msgstr ""
+
+#: templates/widget.php:95
+msgid "Display icon"
+msgstr ""
+
+#: templates/widget.php:96
+msgid "Display vicinity"
+msgstr ""
+
+#: templates/widget.php:97
+msgid "Display rating"
+msgstr ""
+
+#: templates/widget.php:98
+msgid "Display rating stars"
+msgstr ""
+
+#: templates/widget.php:99
+msgid "Display review count"
+msgstr ""
+
+#: templates/widget.php:100
+msgid "Display reviews"
+msgstr ""
+
+#: templates/widget.php:101
+msgid "Display review text"
+msgstr ""
+
+#: templates/widget.php:102
+msgid "Display avatar"
+msgstr ""
+
+#: templates/widget.php:103
+msgid "Display view reviews button"
+msgstr ""
+
+#: templates/widget.php:104
+msgid "Display write review button"
+msgstr ""
+
+#: templates/widget.php:105
+msgid "Display attribution"
+msgstr ""
+
+#: templates/widget.php:106
+msgid "Fill background"
+msgstr ""
+
+#: templates/widget.php:107
+msgid "Animate rating stars"
+msgstr ""
+
+#: templates/widget.php:108
+msgid "Style Sheet active"
+msgstr ""
+
+#: templates/widget.php:110
+#: index.php:2207
+#: index.php:4496
+#: widget.php:1035
+#: widget.php:1041
+#: widget.php:1047
+#: widget.php:1053
+msgid "Settings"
+msgstr ""
+
+#: index.php:60
+msgid "Never Synchronize"
+msgstr ""
+
+#: index.php:61
+msgid "Synchronize Weekly"
+msgstr ""
+
+#: index.php:62
+msgid "Synchronize Daily"
+msgstr ""
+
+#: index.php:63
+msgid "Synchronize Every 6 Hours"
+msgstr ""
+
+#: index.php:64
+msgid "Synchronize Hourly"
+msgstr ""
+
+#: index.php:68
+msgid "Relevance Descending"
+msgstr ""
+
+#: index.php:69
+#: index.php:76
+#: index.php:97
+#: index.php:104
+#: index.php:125
+#: index.php:132
+msgid "High"
+msgstr ""
+
+#: index.php:69
+#: index.php:76
+#: index.php:97
+#: index.php:104
+#: index.php:125
+#: index.php:132
+msgid "Low"
+msgstr ""
+
+#: index.php:75
+msgid "Relevance Ascending"
+msgstr ""
+
+#: index.php:82
+msgid "Date Descending"
+msgstr ""
+
+#: index.php:83
+#: index.php:90
+msgid "New"
+msgstr ""
+
+#: index.php:83
+#: index.php:90
+msgid "Old"
+msgstr ""
+
+#: index.php:89
+msgid "Date Ascending"
+msgstr ""
+
+#: index.php:96
+msgid "Rating Descending"
+msgstr ""
+
+#: index.php:103
+msgid "Rating Ascending"
+msgstr ""
+
+#: index.php:110
+msgid "Author’s Name Ascending"
+msgstr ""
+
+#: index.php:117
+msgid "Author’s Name Descending"
+msgstr ""
+
+#: index.php:124
+msgid "ID Ascending"
+msgstr ""
+
+#: index.php:131
+msgid "ID Descending"
+msgstr ""
+
+#: index.php:138
+msgid "Random Shuffle Static"
+msgstr ""
+
+#: index.php:142
+msgid "Random Shuffle Variable"
+msgstr ""
+
+#: index.php:148
+msgid "just now"
+msgstr ""
+
+#. translators: %u: number of hours, days, weeks, months or years and should remain untouched
+#: index.php:156
+msgid "%u hours ago"
+msgstr ""
+
+#: index.php:163
+msgid "a day ago"
+msgstr ""
+
+#. translators: %u: number of hours, days, weeks, months or years and should remain untouched
+#: index.php:171
+msgid "%u days ago"
+msgstr ""
+
+#: index.php:178
+msgid "in the last week"
+msgstr ""
+
+#: index.php:185
+msgid "a week ago"
+msgstr ""
+
+#. translators: %u: number of hours, days, weeks, months or years and should remain untouched
+#: index.php:193
+msgid "%u weeks ago"
+msgstr ""
+
+#: index.php:200
+msgid "a month ago"
+msgstr ""
+
+#. translators: %u: number of hours, days, weeks, months or years and should remain untouched
+#: index.php:208
+msgid "%u months ago"
+msgstr ""
+
+#: index.php:215
+msgid "a year ago"
+msgstr ""
+
+#. translators: %u: number of hours, days, weeks, months or years and should remain untouched
+#: index.php:223
+msgid "%u years ago"
+msgstr ""
+
+#: index.php:319
+msgid "Cranberry"
+msgstr ""
+
+#: index.php:320
+msgid "Coral"
+msgstr ""
+
+#: index.php:321
+msgid "Pumpkin"
+msgstr ""
+
+#: index.php:322
+msgid "Mustard"
+msgstr ""
+
+#: index.php:323
+msgid "Forest"
+msgstr ""
+
+#: index.php:324
+msgid "Turquoise"
+msgstr ""
+
+#: index.php:325
+msgid "Ocean"
+msgstr ""
+
+#: index.php:326
+msgid "Amethyst"
+msgstr ""
+
+#: index.php:327
+msgid "Magenta"
+msgstr ""
+
+#: index.php:328
+msgid "Slate"
+msgstr ""
+
+#: index.php:329
+msgid "Carbon"
+msgstr ""
+
+#: index.php:330
+msgid "Copper"
+msgstr ""
+
+#: index.php:331
+msgid "Coffee"
+msgstr ""
+
+#: index.php:332
+msgid "High Contrast"
+msgstr ""
+
+#: index.php:913
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: index.php:1000
+msgid "Light Background"
+msgstr ""
+
+#: index.php:1001
+msgid "Light Background with Fonts"
+msgstr ""
+
+#: index.php:1002
+msgid "Light Background, Tiled"
+msgstr ""
+
+#: index.php:1003
+msgid "Light Background, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1004
+msgid "Centered, Light Background"
+msgstr ""
+
+#: index.php:1005
+msgid "Centered, Light Background with Fonts"
+msgstr ""
+
+#: index.php:1006
+msgid "Centered, Light Background, Tiled"
+msgstr ""
+
+#: index.php:1007
+msgid "Centered, Light Background, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1008
+msgid "Narrow, Light Background"
+msgstr ""
+
+#: index.php:1009
+msgid "Narrow, Light Background with Fonts"
+msgstr ""
+
+#: index.php:1010
+msgid "Narrow, Light Background, Tiled"
+msgstr ""
+
+#: index.php:1011
+msgid "Narrow, Light Background, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1012
+msgid "Narrow, Centered, Light Background"
+msgstr ""
+
+#: index.php:1013
+msgid "Narrow, Centered, Light Background with Fonts"
+msgstr ""
+
+#: index.php:1014
+msgid "Narrow, Centered, Light Background, Tiled"
+msgstr ""
+
+#: index.php:1015
+msgid "Narrow, Centered, Light Background, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1016
+msgid "Dark Background"
+msgstr ""
+
+#: index.php:1017
+msgid "Dark Background with Fonts"
+msgstr ""
+
+#: index.php:1018
+msgid "Dark Background, Tiled"
+msgstr ""
+
+#: index.php:1019
+msgid "Dark Background, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1020
+msgid "Centered, Dark Background"
+msgstr ""
+
+#: index.php:1021
+msgid "Centered, Dark Background with Fonts"
+msgstr ""
+
+#: index.php:1022
+msgid "Centered, Dark Background, Tiled"
+msgstr ""
+
+#: index.php:1023
+msgid "Centered, Dark Background, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1024
+msgid "Narrow, Dark Background"
+msgstr ""
+
+#: index.php:1025
+msgid "Narrow, Dark Background with Fonts"
+msgstr ""
+
+#: index.php:1026
+msgid "Narrow, Dark Background, Tiled"
+msgstr ""
+
+#: index.php:1027
+msgid "Narrow, Dark Background, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1028
+msgid "Narrow, Centered, Dark Background"
+msgstr ""
+
+#: index.php:1029
+msgid "Narrow, Centered, Dark Background with Fonts"
+msgstr ""
+
+#: index.php:1030
+msgid "Narrow, Centered, Dark Background, Tiled"
+msgstr ""
+
+#: index.php:1031
+msgid "Narrow, Centered, Dark Background, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1032
+msgid "Light Background, Bubble Outline"
+msgstr ""
+
+#: index.php:1033
+msgid "Light, Bubble Outline with Fonts"
+msgstr ""
+
+#: index.php:1034
+msgid "Light Background, Bubble Outline, Tiled"
+msgstr ""
+
+#: index.php:1035
+msgid "Light, Bubble Outline, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1036
+msgid "Light Background, Bubble Filled"
+msgstr ""
+
+#: index.php:1037
+msgid "Light, Bubble Filled with Fonts"
+msgstr ""
+
+#: index.php:1038
+msgid "Light Background, Bubble Filled, Tiled"
+msgstr ""
+
+#: index.php:1039
+msgid "Light, Bubble Filled, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1040
+msgid "Centered, Light, Bubble Outline"
+msgstr ""
+
+#: index.php:1041
+msgid "Centered, Light, Bubble Outline with Fonts"
+msgstr ""
+
+#: index.php:1042
+msgid "Centered, Light, Bubble Outline, Tiled"
+msgstr ""
+
+#: index.php:1043
+msgid "Centered, Light, Bubble Outline, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1044
+msgid "Centered, Light, Bubble Filled"
+msgstr ""
+
+#: index.php:1045
+msgid "Centered, Light, Bubble Filled with Fonts"
+msgstr ""
+
+#: index.php:1046
+msgid "Centered, Light, Bubble Filled, Tiled"
+msgstr ""
+
+#: index.php:1047
+msgid "Centered, Light, Bubble Filled, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1048
+msgid "Narrow, Light, Bubble Outline"
+msgstr ""
+
+#: index.php:1049
+msgid "Narrow, Light, Bubble Outline with Fonts"
+msgstr ""
+
+#: index.php:1050
+msgid "Narrow, Light, Bubble Outline, Tiled"
+msgstr ""
+
+#: index.php:1051
+msgid "Narrow, Light, Bubble Outline, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1052
+msgid "Narrow, Light, Bubble Filled"
+msgstr ""
+
+#: index.php:1053
+msgid "Narrow, Light, Bubble Filled with Fonts"
+msgstr ""
+
+#: index.php:1054
+msgid "Narrow, Light, Bubble Filled, Tiled"
+msgstr ""
+
+#: index.php:1055
+msgid "Narrow, Light, Bubble Filled, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1056
+msgid "Narrow, Centered, Light, Bubble Outline"
+msgstr ""
+
+#: index.php:1057
+msgid "Narrow, Centered, Light, Bubble Outline with Fonts"
+msgstr ""
+
+#: index.php:1058
+msgid "Narrow, Centered, Light, Bubble Outline, Tiled"
+msgstr ""
+
+#: index.php:1059
+msgid "Narrow, Centered, Light, Bubble Outline, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1060
+msgid "Narrow, Centered, Light, Bubble Filled"
+msgstr ""
+
+#: index.php:1061
+msgid "Narrow, Centered, Light, Bubble Filled with Fonts"
+msgstr ""
+
+#: index.php:1062
+msgid "Narrow, Centered, Light, Bubble Filled, Tiled"
+msgstr ""
+
+#: index.php:1063
+msgid "Narrow, Centered, Light, Bubble Filled, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1064
+msgid "Dark, Bubble Outline"
+msgstr ""
+
+#: index.php:1065
+msgid "Dark, Bubble Outline with Fonts"
+msgstr ""
+
+#: index.php:1066
+msgid "Dark, Bubble Outline, Tiled"
+msgstr ""
+
+#: index.php:1067
+msgid "Dark, Bubble Outline, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1068
+msgid "Dark, Bubble Filled"
+msgstr ""
+
+#: index.php:1069
+msgid "Dark, Bubble Filled with Fonts"
+msgstr ""
+
+#: index.php:1070
+msgid "Dark, Bubble Filled, Tiled"
+msgstr ""
+
+#: index.php:1071
+msgid "Dark, Bubble Filled, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1072
+msgid "Centered, Dark, Bubble Outline"
+msgstr ""
+
+#: index.php:1073
+msgid "Centered, Dark, Bubble Outline with Fonts"
+msgstr ""
+
+#: index.php:1074
+msgid "Centered, Dark, Bubble Outline, Tiled"
+msgstr ""
+
+#: index.php:1075
+msgid "Centered, Dark, Bubble Outline, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1076
+msgid "Centered, Dark, Bubble Filled"
+msgstr ""
+
+#: index.php:1077
+msgid "Centered, Dark, Bubble Filled with Fonts"
+msgstr ""
+
+#: index.php:1078
+msgid "Centered, Dark, Bubble Filled, Tiled"
+msgstr ""
+
+#: index.php:1079
+msgid "Centered, Dark, Bubble Filled, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1080
+msgid "Narrow, Dark, Bubble Outline"
+msgstr ""
+
+#: index.php:1081
+msgid "Narrow, Dark, Bubble Outline with Fonts"
+msgstr ""
+
+#: index.php:1082
+msgid "Narrow, Dark, Bubble Outline, Tiled"
+msgstr ""
+
+#: index.php:1083
+msgid "Narrow, Dark, Bubble Outline, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1084
+msgid "Narrow, Dark, Bubble Filled"
+msgstr ""
+
+#: index.php:1085
+msgid "Narrow, Dark, Bubble Filled with Fonts"
+msgstr ""
+
+#: index.php:1086
+msgid "Narrow, Dark, Bubble Filled, Tiled"
+msgstr ""
+
+#: index.php:1087
+msgid "Narrow, Dark, Bubble Filled, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1088
+msgid "Narrow, Centered, Dark, Bubble Outline"
+msgstr ""
+
+#: index.php:1089
+msgid "Narrow, Centered, Dark, Bubble Outline with Fonts"
+msgstr ""
+
+#: index.php:1090
+msgid "Narrow, Centered, Dark, Bubble Outline, Tiled"
+msgstr ""
+
+#: index.php:1091
+msgid "Narrow, Centered, Dark, Bubble Outline, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1092
+msgid "Narrow, Centered, Dark, Bubble Filled"
+msgstr ""
+
+#: index.php:1093
+msgid "Narrow, Centered, Dark, Bubble Filled with Fonts"
+msgstr ""
+
+#: index.php:1094
+msgid "Narrow, Centered, Dark, Bubble Filled, Tiled"
+msgstr ""
+
+#: index.php:1095
+msgid "Narrow, Centered, Dark, Bubble Filled, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1096
+msgid "Badge, Light Background"
+msgstr ""
+
+#: index.php:1097
+msgid "Badge, Light Background with Fonts"
+msgstr ""
+
+#: index.php:1098
+msgid "Narrow Badge, Light Background"
+msgstr ""
+
+#: index.php:1099
+msgid "Narrow Badge, Light Background with Fonts"
+msgstr ""
+
+#: index.php:1100
+msgid "Badge, Dark Background"
+msgstr ""
+
+#: index.php:1101
+msgid "Badge, Dark Background with Fonts"
+msgstr ""
+
+#: index.php:1102
+msgid "Narrow Badge, Dark Background"
+msgstr ""
+
+#: index.php:1103
+msgid "Narrow Badge, Dark Background with Fonts"
+msgstr ""
+
+#: index.php:1104
+msgid "Tiny Badge, Light Background"
+msgstr ""
+
+#: index.php:1105
+msgid "Tiny Badge, Light Background with Fonts"
+msgstr ""
+
+#: index.php:1106
+msgid "Tiny Badge, Dark Background"
+msgstr ""
+
+#: index.php:1107
+msgid "Tiny Badge, Dark Background with Fonts"
+msgstr ""
+
+#: index.php:1108
+msgid "Two Columns, Light Background"
+msgstr ""
+
+#: index.php:1109
+msgid "Two Columns, Light Background, Tiled"
+msgstr ""
+
+#: index.php:1110
+msgid "Two Columns, Light Background, Bubble Outline"
+msgstr ""
+
+#: index.php:1111
+msgid "Two Columns, Light Background, Bubble Outline, Tiled"
+msgstr ""
+
+#: index.php:1112
+msgid "Two Columns, Light Background, Bubble Filled"
+msgstr ""
+
+#: index.php:1113
+msgid "Two Columns, Light Background, Bubble Filled, Tiled"
+msgstr ""
+
+#: index.php:1114
+msgid "Two Columns, Light Background, Centered"
+msgstr ""
+
+#: index.php:1115
+msgid "Two Columns, Light Background, Centered, Tiled"
+msgstr ""
+
+#: index.php:1116
+msgid "Two Columns, Light Background, Bubble Outline, Centered"
+msgstr ""
+
+#: index.php:1117
+msgid "Two Columns, Light Background, Bubble Outline, Tiled, Centered"
+msgstr ""
+
+#: index.php:1118
+msgid "Two Columns, Light Background, Bubble Filled, Centered"
+msgstr ""
+
+#: index.php:1119
+msgid "Two Columns, Light Background, Bubble Filled, Tiled, Centered"
+msgstr ""
+
+#: index.php:1120
+msgid "Two Columns, Light Background with Fonts"
+msgstr ""
+
+#: index.php:1121
+msgid "Two Columns, Light Background, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1122
+msgid "Two Columns, Light Background, Bubble Outline with Fonts"
+msgstr ""
+
+#: index.php:1123
+msgid "Two Columns, Light Background, Bubble Outline, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1124
+msgid "Two Columns, Light Background, Bubble Filled with Fonts"
+msgstr ""
+
+#: index.php:1125
+msgid "Two Columns, Light Background, Bubble Filled, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1126
+msgid "Two Columns, Light Background, Centered with Fonts"
+msgstr ""
+
+#: index.php:1127
+msgid "Two Columns, Light Background, Centered, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1128
+msgid "Two Columns, Light Background, Bubble Outline, Centered with Fonts"
+msgstr ""
+
+#: index.php:1129
+msgid "Two Columns, Light Background, Bubble Outline, Tiled, Centered with Fonts"
+msgstr ""
+
+#: index.php:1130
+msgid "Two Columns, Light Background, Bubble Filled, Centered with Fonts"
+msgstr ""
+
+#: index.php:1131
+msgid "Two Columns, Light Background, Bubble Filled, Tiled, Centered with Fonts"
+msgstr ""
+
+#: index.php:1132
+msgid "Two Columns, Dark Background"
+msgstr ""
+
+#: index.php:1133
+msgid "Two Columns, Dark Background, Tiled"
+msgstr ""
+
+#: index.php:1134
+msgid "Two Columns, Dark Background, Bubble Outline"
+msgstr ""
+
+#: index.php:1135
+msgid "Two Columns, Dark Background, Bubble Outline, Tiled"
+msgstr ""
+
+#: index.php:1136
+msgid "Two Columns, Dark Background, Bubble Filled"
+msgstr ""
+
+#: index.php:1137
+msgid "Two Columns, Dark Background, Bubble Filled, Tiled"
+msgstr ""
+
+#: index.php:1138
+msgid "Two Columns, Dark Background, Centered"
+msgstr ""
+
+#: index.php:1139
+msgid "Two Columns, Dark Background, Centered, Tiled"
+msgstr ""
+
+#: index.php:1140
+msgid "Two Columns, Dark Background, Bubble Outline, Centered"
+msgstr ""
+
+#: index.php:1141
+msgid "Two Columns, Dark Background, Bubble Outline, Tiled, Centered"
+msgstr ""
+
+#: index.php:1142
+msgid "Two Columns, Dark Background, Bubble Filled, Centered"
+msgstr ""
+
+#: index.php:1143
+msgid "Two Columns, Dark Background, Bubble Filled, Tiled, Centered"
+msgstr ""
+
+#: index.php:1144
+msgid "Two Columns, Dark Background with Fonts"
+msgstr ""
+
+#: index.php:1145
+msgid "Two Columns, Dark Background, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1146
+msgid "Two Columns, Dark Background, Bubble Outline with Fonts"
+msgstr ""
+
+#: index.php:1147
+msgid "Two Columns, Dark Background, Bubble Outline, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1148
+msgid "Two Columns, Dark Background, Bubble Filled with Fonts"
+msgstr ""
+
+#: index.php:1149
+msgid "Two Columns, Dark Background, Bubble Filled, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1150
+msgid "Two Columns, Dark Background, Centered with Fonts"
+msgstr ""
+
+#: index.php:1151
+msgid "Two Columns, Dark Background, Centered, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1152
+msgid "Two Columns, Dark Background, Bubble Outline, Centered with Fonts"
+msgstr ""
+
+#: index.php:1153
+msgid "Two Columns, Dark Background, Bubble Outline, Tiled, Centered with Fonts"
+msgstr ""
+
+#: index.php:1154
+msgid "Two Columns, Dark Background, Bubble Filled, Centered with Fonts"
+msgstr ""
+
+#: index.php:1155
+msgid "Two Columns, Dark Background, Bubble Filled, Tiled, Centered with Fonts"
+msgstr ""
+
+#: index.php:1156
+msgid "Three Columns, Light Background"
+msgstr ""
+
+#: index.php:1157
+msgid "Three Columns, Light Background, Tiled"
+msgstr ""
+
+#: index.php:1158
+msgid "Three Columns, Light Background, Bubble Outline"
+msgstr ""
+
+#: index.php:1159
+msgid "Three Columns, Light Background, Bubble Outline, Tiled"
+msgstr ""
+
+#: index.php:1160
+msgid "Three Columns, Light Background, Bubble Filled"
+msgstr ""
+
+#: index.php:1161
+msgid "Three Columns, Light Background, Bubble Filled, Tiled"
+msgstr ""
+
+#: index.php:1162
+msgid "Three Columns, Light Background, Centered"
+msgstr ""
+
+#: index.php:1163
+msgid "Three Columns, Light Background, Centered, Tiled"
+msgstr ""
+
+#: index.php:1164
+msgid "Three Columns, Light Background, Bubble Outline, Centered"
+msgstr ""
+
+#: index.php:1165
+msgid "Three Columns, Light Background, Bubble Outline, Tiled, Centered"
+msgstr ""
+
+#: index.php:1166
+msgid "Three Columns, Light Background, Bubble Filled, Centered"
+msgstr ""
+
+#: index.php:1167
+msgid "Three Columns, Light Background, Bubble Filled, Tiled, Centered"
+msgstr ""
+
+#: index.php:1168
+msgid "Three Columns, Light Background with Fonts"
+msgstr ""
+
+#: index.php:1169
+msgid "Three Columns, Light Background, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1170
+msgid "Three Columns, Light Background, Bubble Outline with Fonts"
+msgstr ""
+
+#: index.php:1171
+msgid "Three Columns, Light Background, Bubble Outline, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1172
+msgid "Three Columns, Light Background, Bubble Filled with Fonts"
+msgstr ""
+
+#: index.php:1173
+msgid "Three Columns, Light Background, Bubble Filled, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1174
+msgid "Three Columns, Light Background, Centered with Fonts"
+msgstr ""
+
+#: index.php:1175
+msgid "Three Columns, Light Background, Centered, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1176
+msgid "Three Columns, Light Background, Bubble Outline, Centered with Fonts"
+msgstr ""
+
+#: index.php:1177
+msgid "Three Columns, Light Background, Bubble Outline, Tiled, Centered with Fonts"
+msgstr ""
+
+#: index.php:1178
+msgid "Three Columns, Light Background, Bubble Filled, Centered with Fonts"
+msgstr ""
+
+#: index.php:1179
+msgid "Three Columns, Light Background, Bubble Filled, Tiled, Centered with Fonts"
+msgstr ""
+
+#: index.php:1180
+msgid "Three Columns, Dark Background"
+msgstr ""
+
+#: index.php:1181
+msgid "Three Columns, Dark Background, Tiled"
+msgstr ""
+
+#: index.php:1182
+msgid "Three Columns, Dark Background, Bubble Outline"
+msgstr ""
+
+#: index.php:1183
+msgid "Three Columns, Dark Background, Bubble Outline, Tiled"
+msgstr ""
+
+#: index.php:1184
+msgid "Three Columns, Dark Background, Bubble Filled"
+msgstr ""
+
+#: index.php:1185
+msgid "Three Columns, Dark Background, Bubble Filled, Tiled"
+msgstr ""
+
+#: index.php:1186
+msgid "Three Columns, Dark Background, Centered"
+msgstr ""
+
+#: index.php:1187
+msgid "Three Columns, Dark Background, Centered, Tiled"
+msgstr ""
+
+#: index.php:1188
+msgid "Three Columns, Dark Background, Bubble Outline, Centered"
+msgstr ""
+
+#: index.php:1189
+msgid "Three Columns, Dark Background, Bubble Outline, Tiled, Centered"
+msgstr ""
+
+#: index.php:1190
+msgid "Three Columns, Dark Background, Bubble Filled, Centered"
+msgstr ""
+
+#: index.php:1191
+msgid "Three Columns, Dark Background, Bubble Filled, Tiled, Centered"
+msgstr ""
+
+#: index.php:1192
+msgid "Three Columns, Dark Background with Fonts"
+msgstr ""
+
+#: index.php:1193
+msgid "Three Columns, Dark Background, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1194
+msgid "Three Columns, Dark Background, Bubble Outline with Fonts"
+msgstr ""
+
+#: index.php:1195
+msgid "Three Columns, Dark Background, Bubble Outline, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1196
+msgid "Three Columns, Dark Background, Bubble Filled with Fonts"
+msgstr ""
+
+#: index.php:1197
+msgid "Three Columns, Dark Background, Bubble Filled, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1198
+msgid "Three Columns, Dark Background, Centered with Fonts"
+msgstr ""
+
+#: index.php:1199
+msgid "Three Columns, Dark Background, Centered, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1200
+msgid "Three Columns, Dark Background, Bubble Outline, Centered with Fonts"
+msgstr ""
+
+#: index.php:1201
+msgid "Three Columns, Dark Background, Bubble Outline, Tiled, Centered with Fonts"
+msgstr ""
+
+#: index.php:1202
+msgid "Three Columns, Dark Background, Bubble Filled, Centered with Fonts"
+msgstr ""
+
+#: index.php:1203
+msgid "Three Columns, Dark Background, Bubble Filled, Tiled, Centered with Fonts"
+msgstr ""
+
+#: index.php:1204
+msgid "Four Columns, Light Background"
+msgstr ""
+
+#: index.php:1205
+msgid "Four Columns, Light Background, Tiled"
+msgstr ""
+
+#: index.php:1206
+msgid "Four Columns, Light Background, Bubble Outline"
+msgstr ""
+
+#: index.php:1207
+msgid "Four Columns, Light Background, Bubble Outline, Tiled"
+msgstr ""
+
+#: index.php:1208
+msgid "Four Columns, Light Background, Bubble Filled"
+msgstr ""
+
+#: index.php:1209
+msgid "Four Columns, Light Background, Bubble Filled, Tiled"
+msgstr ""
+
+#: index.php:1210
+msgid "Four Columns, Light Background, Centered"
+msgstr ""
+
+#: index.php:1211
+msgid "Four Columns, Light Background, Centered, Tiled"
+msgstr ""
+
+#: index.php:1212
+msgid "Four Columns, Light Background, Bubble Outline, Centered"
+msgstr ""
+
+#: index.php:1213
+msgid "Four Columns, Light Background, Bubble Outline, Tiled, Centered"
+msgstr ""
+
+#: index.php:1214
+msgid "Four Columns, Light Background, Bubble Filled, Centered"
+msgstr ""
+
+#: index.php:1215
+msgid "Four Columns, Light Background, Bubble Filled, Tiled, Centered"
+msgstr ""
+
+#: index.php:1216
+msgid "Four Columns, Light Background with Fonts"
+msgstr ""
+
+#: index.php:1217
+msgid "Four Columns, Light Background, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1218
+msgid "Four Columns, Light Background, Bubble Outline with Fonts"
+msgstr ""
+
+#: index.php:1219
+msgid "Four Columns, Light Background, Bubble Outline, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1220
+msgid "Four Columns, Light Background, Bubble Filled with Fonts"
+msgstr ""
+
+#: index.php:1221
+msgid "Four Columns, Light Background, Bubble Filled, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1222
+msgid "Four Columns, Light Background, Centered with Fonts"
+msgstr ""
+
+#: index.php:1223
+msgid "Four Columns, Light Background, Centered, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1224
+msgid "Four Columns, Light Background, Bubble Outline, Centered with Fonts"
+msgstr ""
+
+#: index.php:1225
+msgid "Four Columns, Light Background, Bubble Outline, Tiled, Centered with Fonts"
+msgstr ""
+
+#: index.php:1226
+msgid "Four Columns, Light Background, Bubble Filled, Centered with Fonts"
+msgstr ""
+
+#: index.php:1227
+msgid "Four Columns, Light Background, Bubble Filled, Tiled, Centered with Fonts"
+msgstr ""
+
+#: index.php:1228
+msgid "Four Columns, Dark Background"
+msgstr ""
+
+#: index.php:1229
+msgid "Four Columns, Dark Background, Tiled"
+msgstr ""
+
+#: index.php:1230
+msgid "Four Columns, Dark Background, Bubble Outline"
+msgstr ""
+
+#: index.php:1231
+msgid "Four Columns, Dark Background, Bubble Outline, Tiled"
+msgstr ""
+
+#: index.php:1232
+msgid "Four Columns, Dark Background, Bubble Filled"
+msgstr ""
+
+#: index.php:1233
+msgid "Four Columns, Dark Background, Bubble Filled, Tiled"
+msgstr ""
+
+#: index.php:1234
+msgid "Four Columns, Dark Background, Centered"
+msgstr ""
+
+#: index.php:1235
+msgid "Four Columns, Dark Background, Centered, Tiled"
+msgstr ""
+
+#: index.php:1236
+msgid "Four Columns, Dark Background, Bubble Outline, Centered"
+msgstr ""
+
+#: index.php:1237
+msgid "Four Columns, Dark Background, Bubble Outline, Tiled, Centered"
+msgstr ""
+
+#: index.php:1238
+msgid "Four Columns, Dark Background, Bubble Filled, Centered"
+msgstr ""
+
+#: index.php:1239
+msgid "Four Columns, Dark Background, Bubble Filled, Tiled, Centered"
+msgstr ""
+
+#: index.php:1240
+msgid "Four Columns, Dark Background with Fonts"
+msgstr ""
+
+#: index.php:1241
+msgid "Four Columns, Dark Background, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1242
+msgid "Four Columns, Dark Background, Bubble Outline with Fonts"
+msgstr ""
+
+#: index.php:1243
+msgid "Four Columns, Dark Background, Bubble Outline, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1244
+msgid "Four Columns, Dark Background, Bubble Filled with Fonts"
+msgstr ""
+
+#: index.php:1245
+msgid "Four Columns, Dark Background, Bubble Filled, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1246
+msgid "Four Columns, Dark Background, Centered with Fonts"
+msgstr ""
+
+#: index.php:1247
+msgid "Four Columns, Dark Background, Centered, Tiled with Fonts"
+msgstr ""
+
+#: index.php:1248
+msgid "Four Columns, Dark Background, Bubble Outline, Centered with Fonts"
+msgstr ""
+
+#: index.php:1249
+msgid "Four Columns, Dark Background, Bubble Outline, Tiled, Centered with Fonts"
+msgstr ""
+
+#: index.php:1250
+msgid "Four Columns, Dark Background, Bubble Filled, Centered with Fonts"
+msgstr ""
+
+#: index.php:1251
+msgid "Four Columns, Dark Background, Bubble Filled, Tiled, Centered with Fonts"
+msgstr ""
+
+#: index.php:1254
+msgid "Animal Shelter"
+msgstr ""
+
+#: index.php:1255
+msgid "Archive Organization"
+msgstr ""
+
+#: index.php:1256
+msgid "Automotive Business"
+msgstr ""
+
+#: index.php:1257
+msgid "Child Care"
+msgstr ""
+
+#: index.php:1258
+msgid "Dentist"
+msgstr ""
+
+#: index.php:1259
+msgid "Dry Cleaning or Laundry"
+msgstr ""
+
+#: index.php:1260
+msgid "Emergency Service"
+msgstr ""
+
+#: index.php:1261
+msgid "Employment Agency"
+msgstr ""
+
+#: index.php:1262
+msgid "Entertainment Business"
+msgstr ""
+
+#: index.php:1263
+msgid "Financial Service"
+msgstr ""
+
+#: index.php:1264
+msgid "Food Establishment"
+msgstr ""
+
+#: index.php:1265
+msgid "Government Office"
+msgstr ""
+
+#: index.php:1266
+msgid "Health and Beauty Business"
+msgstr ""
+
+#: index.php:1267
+msgid "Home and Construction Business"
+msgstr ""
+
+#: index.php:1268
+msgid "Internet Café"
+msgstr ""
+
+#: index.php:1269
+msgid "Legal Service"
+msgstr ""
+
+#: index.php:1270
+msgid "Library"
+msgstr ""
+
+#: index.php:1271
+msgid "Lodging Business"
+msgstr ""
+
+#: index.php:1272
+msgid "Medical Business"
+msgstr ""
+
+#: index.php:1273
+msgid "Professional Service"
+msgstr ""
+
+#: index.php:1274
+msgid "Radio Station"
+msgstr ""
+
+#: index.php:1275
+msgid "Real Estate Agent"
+msgstr ""
+
+#: index.php:1276
+msgid "Recycling Center"
+msgstr ""
+
+#: index.php:1277
+msgid "Self Storage"
+msgstr ""
+
+#: index.php:1278
+msgid "Shopping Center"
+msgstr ""
+
+#: index.php:1279
+msgid "Sports Activity Location"
+msgstr ""
+
+#: index.php:1280
+msgid "Store"
+msgstr ""
+
+#: index.php:1281
+msgid "Television Station"
+msgstr ""
+
+#: index.php:1282
+msgid "Tourist Information Center"
+msgstr ""
+
+#: index.php:1283
+msgid "Travel Agency"
+msgstr ""
+
+#: index.php:1287
+msgid "Inexpensive $"
+msgstr ""
+
+#: index.php:1291
+msgid "Moderate $$"
+msgstr ""
+
+#: index.php:1295
+msgid "Expensive $$$"
+msgstr ""
+
+#: index.php:1299
+msgid "Very Expensive $$$$"
+msgstr ""
+
+#. translators: %s refers to useful URLs to resolve errors and should remain untouched
+#: index.php:1339
+msgid "<strong>Error:</strong> Your Google API Key is not valid for this request and permission is denied. Please check your Google <a href=\"%s\" target=\"_blank\">API Key</a>."
+msgstr ""
+
+#. translators: %s refers to useful URLs to resolve errors and should remain untouched
+#: index.php:1348
+msgid "<strong>Error:</strong> Google has returned an invalid request error. Please check your <a href=\"%s\" target=\"_blank\">Place ID</a>."
+msgstr ""
+
+#. translators: %s refers to useful URLs to resolve errors and should remain untouched
+#: index.php:1357
+msgid "<strong>Error:</strong> Google has not found data for the current Place ID. Please ensure you search for a specific business location; not a region or coordinates using the <a href=\"%s\" target=\"_blank\">Place ID Finder</a>."
+msgstr ""
+
+#: index.php:1364
+msgid "Error:"
+msgstr ""
+
+#: index.php:1364
+msgid "<strong>Error:</strong> Unknown — Please check Retrieved data to find out more information."
+msgstr ""
+
+#: index.php:1477
+msgid "Successfully set Google My Business credentials"
+msgstr ""
+
+#: index.php:1497
+#: index.php:1618
+msgid "No reviews imported"
+msgstr ""
+
+#. translators: %u: number of reviews and should remain untouched; mid-sentence phrase
+#: index.php:1625
+#: index.php:1737
+msgid "%u review did not have a valid author URL"
+msgid_plural "%u reviews did not have valid author URLs"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %u: number of reviews and should remain untouched; mid-sentence phrase
+#: index.php:1631
+#: index.php:1743
+msgid "%u review was missing a date"
+msgid_plural "%u reviews were missing dates"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: separator character and spacing between multiple message elements; spacing is important
+#: index.php:1639
+#: index.php:1751
+msgid "; "
+msgstr ""
+
+#. translators: %u: number of reviews and should remain untouched
+#: index.php:1670
+msgid "Review import failed. Please select a smaller number of reviews, less than %u."
+msgstr ""
+
+#: index.php:1679
+msgid "Review import failed."
+msgstr ""
+
+#. translators: %u: number of reviews and should remain untouched
+#: index.php:1710
+msgid "Review import failed due the handling of serialized data by WordPress. Please select a smaller number of reviews, less than %u."
+msgstr ""
+
+#: index.php:1719
+msgid "Review import failed due the handling of serialized data by WordPress."
+msgstr ""
+
+#. translators: %u: number of reviews and should remain untouched
+#: index.php:1730
+msgid "Successfully imported %u review"
+msgid_plural "Successfully imported %u reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: index.php:1982
+msgid "Successfully saved style and script preference"
+msgstr ""
+
+#. translators: %s: file directory and should remain untouched
+#: index.php:1997
+msgid "Cannot create a new file in plugin directory: %s"
+msgstr ""
+
+#. translators: %s: file name and should remain untouched
+#: index.php:2014
+msgid "Cannot create a new file: %s"
+msgstr ""
+
+#. translators: %s: file name and should remain untouched
+#: index.php:2025
+msgid "File at: %s is not writable."
+msgstr ""
+
+#. translators: %s: file name and should remain untouched
+#: index.php:2040
+msgid "Cannot write new data to file at: %s"
+msgstr ""
+
+#: index.php:2058
+msgid "Successfully saved custom styles"
+msgstr ""
+
+#: index.php:2080
+msgid "Unable to reset data"
+msgstr ""
+
+#: index.php:2091
+msgid "Unable to save data, consider enabling additional sanitization of retrieved data"
+msgstr ""
+
+#: index.php:2098
+msgid "Unable to save data"
+msgstr ""
+
+#: index.php:2105
+msgid "Unable to clear cache"
+msgstr ""
+
+#: index.php:2115
+msgid "Cache cleared"
+msgstr ""
+
+#: index.php:2152
+msgid "Review archive successfully reset"
+msgstr ""
+
+#: index.php:2160
+msgid "You do not have permissions to deactivate and reactivate plugin"
+msgstr ""
+
+#: index.php:2167
+msgid "Plugin successfully reset"
+msgstr ""
+
+#: index.php:2223
+msgid "Like our plugin? Please leave a review!"
+msgstr ""
+
+#: index.php:2824
+#: index.php:2900
+msgid "Error: Place ID and Google API Key are required."
+msgstr ""
+
+#: index.php:2828
+#: index.php:2853
+#: index.php:2904
+msgid "Error: Place ID is required."
+msgstr ""
+
+#: index.php:2832
+#: index.php:2860
+#: index.php:2908
+msgid "Error: Google API Key is required."
+msgstr ""
+
+#: index.php:2846
+msgid "Place ID and Google API Key are required."
+msgstr ""
+
+#: index.php:2925
+msgid "Request count exceeded"
+msgstr ""
+
+#. translators: %s: WordPress function name should remain untouched
+#: index.php:3009
+#: index.php:3016
+#: index.php:3045
+msgid "Error: Required remote collection function not available: <em>%s</em>"
+msgstr ""
+
+#. translators: %s: WordPress function name should remain untouched
+#: index.php:3052
+msgid "Error: Unable to collect remote data from URL: <em>%s</em>"
+msgstr ""
+
+#: index.php:3238
+msgid "Error: Empty result."
+msgstr ""
+
+#: index.php:3250
+msgid "Empty result"
+msgstr ""
+
+#. translators: %s refers to the Settings URL and should remain untouched
+#: index.php:4462
+msgid "No reviews found, please check your <a href=\"%s\">settings</a>."
+msgstr ""
+
+#: index.php:4470
+msgid "Recent Reviews"
+msgstr ""
+
+#: index.php:4498
+msgid "Rate Plugin"
+msgstr ""
+
+#: index.php:4518
+msgid "ID"
+msgstr ""
+
+#: index.php:4519
+msgid "Submitted"
+msgstr ""
+
+#: index.php:4520
+msgid "Author"
+msgstr ""
+
+#: index.php:4521
+msgid "Rating"
+msgstr ""
+
+#: index.php:4523
+msgid "Language"
+msgstr ""
+
+#: index.php:4524
+msgid "Retrieved"
+msgstr ""
+
+#: index.php:4528
+msgid "Place ID"
+msgstr ""
+
+#: index.php:4539
+msgid "Hide"
+msgstr ""
+
+#: index.php:4539
+msgid "Remove"
+msgstr ""
+
+#: index.php:4548
+msgid "Imported"
+msgstr ""
+
+#: index.php:4814
+#: index.php:4835
+#: index.php:4855
+#: index.php:5365
+msgid "Error"
+msgstr ""
+
+#: index.php:5078
+msgid "No reviews found."
+msgstr ""
+
+#: index.php:5083
+msgid "No reviews found, offset too high or another restriction."
+msgstr ""
+
+#: index.php:5249
+msgid "View Reviews"
+msgstr ""
+
+#: index.php:5259
+msgid "Write Review"
+msgstr ""
+
+#: widget.php:37
+msgid "Have your rating and a review showing in your sidebar"
+msgstr ""
+
+#: widget.php:398
+msgid "Google Rating"
+msgstr ""
+
+#: widget.php:1034
+msgid "Please set your Google API Key and Place ID"
+msgstr ""
+
+#: widget.php:1040
+msgid "Please set your Google API Key"
+msgstr ""
+
+#: widget.php:1046
+msgid "Please set your Place ID"
+msgstr ""
+
+#: widget.php:1052
+msgid "No rating or review data found."
+msgstr ""
+
+#: widget.php:1052
+msgid "Please check your Rating and Reviews settings."
+msgstr ""
+
+#: widget.php:1068
+msgid "Not reviews or ratings exist."
+msgstr ""
